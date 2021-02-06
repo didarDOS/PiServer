@@ -9,7 +9,7 @@ IP = check_output(["hostname", "-I"]).split()[0]
 try:
     print("Writing to display")
     while True:
-
+        action_detector()
         # Uncomment the following line to loop with 1 sec delay
         # sleep(1)
 except KeyboardInterrupt:
