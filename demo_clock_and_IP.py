@@ -18,7 +18,7 @@ except KeyboardInterrupt:
     display.lcd_clear()
 
 
-def action_detector:
+def action_detector():
     i = 0
     display.lcd_display_string(str(datetime.now().time()), 1)
     display.lcd_display_string(str(IP), 2)
